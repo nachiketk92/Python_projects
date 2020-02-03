@@ -15,7 +15,7 @@ while True:
     except:
         print("That's not a valid option!")
 # Conditions to check if lines are overlaping or not
-if (((x3-x1)/(x2-x1)) or ((x4-x1)/(x2-x1))):
+if (0>((x3-x1)/(x2-x1))>1) or (0>((x4-x1)/(x2-x1))>1):
     print('Lines are overlaping.')
 else:
     print('Lines are not overlaping')
