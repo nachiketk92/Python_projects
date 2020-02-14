@@ -14,3 +14,9 @@ str1='1.2.3v' , str2='1.2.3.1v' result str2 is greater
 The major consideration that is takin into accounnt is that the comparison of two versions is dependent only on the numbers.
 
 This code can be optimized further by using recursive function consept.
+
+# Calculator
+A simple calculator is creading using tkinter to create a gui.
+Further update will be done shortly to increase functionalities of the calculator.
+To run the program, simply pull the file, open the terminal go to the file path and use the following command to run the file
+python calculator.py
